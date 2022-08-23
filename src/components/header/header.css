@@ -1,0 +1,136 @@
+header{
+    height: 80vh;
+    width: 100vw;
+    padding-top: 7rem;
+    overflow: hidden;
+    box-sizing: content-box;
+    background: linear-gradient(to right,
+    var(--color-bg-blue) 70%,
+    var(--color-bg-blue) 0%,
+    var(--color-bg-yellow) 70%,
+    var(--color-bg-yellow) 100%
+    ) ;
+}
+
+.intro-board{
+    color:  var(--color-bg-yellow);
+    position: absolute;
+    display: inline-block;
+    top:0;
+    margin: 20px;
+}
+
+.intro-board h1{
+     padding:  10px;
+     font-size:2rem;
+     font-style: italic;
+}
+
+.content-about-me{
+    position: relative;
+    text-align: left;
+    width:40%;
+    margin-top:3rem;
+}
+.content-about-me p{
+    margin-top:2rem;
+    line-height: 1.5;
+}
+
+.content-about-me h1{
+    font-weight: 800;
+    font-size:3rem;
+    color:  var(--color-bg-yellow);  
+    letter-spacing: 5px;
+}
+
+.header__container{
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+/*  ********************** CTA **************************** */
+.cta{
+    margin-top: 2.5rem;
+    display: flex;
+    gap: 1.2rem;
+}
+.content-about-me .cta{
+    position: relative;
+    text-align: left;
+    margin-top:4rem;
+}
+
+/* ******* ME******* */
+
+.me{
+    width: 22rem;
+    position: absolute;
+    left: calc(100% - 40%);
+    overflow: hidden;
+    padding: 2rem 1.5rem 1.5rem 1.5rem;
+}
+
+.me img{
+    height: 300px;
+    width: 300px;
+}
+
+/* *******************MEDIA QUERIES (MEDIUM DEVICE) */
+@media screen and (max-width: 1024px) {
+   header{
+    height:45vh;
+   }
+   .me{
+    height:15rem;
+    position: absolute;
+    left: calc(100% - 50%);
+   }
+   .content-about-me{
+    position: relative;
+    text-align: left;
+    width:50%;
+    margin-bottom:3rem;
+}
+.content-about-me h1{
+    font-weight: 600;
+    font-size:2rem;
+
+}
+}
+
+/* *******************MEDIA QUERIES (SMALL DEVICE) */
+@media screen and (max-width: 600px) {
+    header{
+        height: 100vh;
+        width: 134%;
+        padding-top: 7rem;
+        background: linear-gradient(to bottom,
+        var(--color-bg-blue) 0%,
+        var(--color-bg-blue) 70%,
+        var(--color-bg-yellow) 70%,
+        var(--color-bg-yellow) 100%
+        );
+    }
+    .content-about-me{
+        margin-top:0;
+        width:75%;
+        left:10%;
+        justify-content: left;
+        text-align: left;
+        line-height: 2;
+    }
+   
+    .header__container{
+        height:100vh;
+    }
+    .me{
+        height: 20%;
+        position: absolute;
+        bottom:2.5rem;
+        left:1rem;
+    } 
+} 
