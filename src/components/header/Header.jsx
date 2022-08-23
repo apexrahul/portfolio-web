@@ -6,7 +6,7 @@ import ME from "../../assets/farewellBg.jpg"
 
 const Header = () => {
   return (
-    <header id="home">
+    <header data-aos="fade-zoom-in" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="2000" id="home">
       <div className="intro-board">
         <h1>{"< Rahul Pant />"}</h1>
         </div>

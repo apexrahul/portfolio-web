@@ -66,9 +66,7 @@ input, textarea{
 
 /* *******************MEDIA QUERIES (SMALL DEVICE) */
 @media screen and (max-width: 600px) {
-    #contact{
-        width: 108%;
-    }
+
      .container.contact-container{
         width: var(--container-width-sm);
      } 
