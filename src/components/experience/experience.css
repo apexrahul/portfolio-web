@@ -65,12 +65,7 @@ box-sizing: content-box;
 
 /* *******************MEDIA QUERIES (SMALL DEVICE) */
 @media screen and (max-width: 600px) {
-    .experience-container{
-        gap: 1rem;
-    }
-
-    .experience-container > div{
-        width: 100%;
-        padding: 2rem 1rem;
+    #experience{
+        width: 108%;
     }
 }
