@@ -19,11 +19,11 @@ const Contact = () => {
 
   return (
     <section id='contact' >
-      <h5 data-aos="fade-down" data-aos-duration="3000">Get In Touch</h5>
-      <h2 data-aos="fade-down" data-aos-duration="3000">Contact Me</h2>
+      <h5 >Get In Touch</h5>
+      <h2>Contact Me</h2>
 
       <div className="container contact-container">
-        <div data-aos="fade-down" data-aos-duration="3000" className="contact-options">
+        <div className="contact-options">
           <div className="contact-option">
           <MdOutlineEmail className="contact-option-icon" />
             <h4>Email</h4>
@@ -45,7 +45,7 @@ const Contact = () => {
         </div>
      
       { /* END OF CONTACT OPTIONS */}
-      <form data-aos="fade-left" data-aos-duration="3000" ref={form} onSubmit={sendEmail}>
+      <form ref={form} onSubmit={sendEmail}>
         <input type="text" name="name" placeholder="Your Full Name" required />
         <input type="email" name="email" placeholder="Your Email" required />
         <textarea name="message" rows="7" placeholder="Your Message" required ></textarea>

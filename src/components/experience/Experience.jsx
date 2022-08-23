@@ -5,11 +5,11 @@ import {BsPatchCheckFill} from 'react-icons/bs'
 const Experience = () => {
   return (
     <section id ='experience'>
-      <h5 data-aos="fade-down" data-aos-duration="1000" >What Skills I have</h5>
-      <h2 data-aos="fade-down" data-aos-duration="1000" >My Experience</h2>
+      <h5 >What Skills I have</h5>
+      <h2 >My Experience</h2>
 
       <div className="container experience-container">
-        <div data-aos="zoom-in-down" data-aos-duration="2000" className="experience-frontend">
+        <div className="experience-frontend">
           <h3>Frontend Developer</h3>
           <div className="experience-content">
 
@@ -54,7 +54,7 @@ const Experience = () => {
 
 {/*  ***************BACKEND *************************************************/}
 
-        <div data-aos="zoom-in-up" data-aos-duration="2000" className="experience-backend">
+        <div className="experience-backend">
         <h3>Backend Developer</h3>
           <div className="experience-content">
 
