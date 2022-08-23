@@ -12,7 +12,7 @@ const Portfolio = () => {
       </div>
 
       <div className="container portfolio-container">
-        <articles className='portfolio-item'>
+        <div className='portfolio-item'>
           <div className="portfolio-item-image">
             <img src={IMG1} alt="" />
           </div>
@@ -21,8 +21,8 @@ const Portfolio = () => {
           <a href="https://github.com/apexrahul/mern-chat-stack" target="_blank" className="btn" rel="noreferrer">Github</a>
           <a href="https://mern-chat-stack.herokuapp.com/" className="btn btn-primary" target='_blank' rel="noreferrer">Live Demo</a>
           </div>
-        </articles>
-        <articles className='portfolio-item'>
+        </div>
+        <div className='portfolio-item'>
           <div className="portfolio-item-image">
             <img src={IMG2} alt="" />
           </div>
@@ -31,8 +31,8 @@ const Portfolio = () => {
           <a href="https://github.com/apexrahul/apex-blog" target="_blank" className="btn" rel="noreferrer">Github</a>
           <a href="https://apex-blog-two.vercel.app/" className="btn btn-primary" target='_blank' rel="noreferrer">Live Demo</a>
           </div>
-        </articles>
-        <articles className='portfolio-item'>
+        </div>
+        <div className='portfolio-item'>
           <div className="portfolio-item-image">
             <img src={IMG3} alt="" />
           </div>
@@ -41,7 +41,7 @@ const Portfolio = () => {
           <a href="https://github.com/apexrahul/netflix-clone" className="btn"target="_blank" rel="noreferrer">Github</a>
           <a href="https://netflix-clone-87568.firebaseapp.com/" className="btn btn-primary" target='_blank' rel="noreferrer">Live Demo</a>
           </div>
-        </articles>
+        </div>
       </div>
     </section>
   )

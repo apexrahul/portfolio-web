@@ -65,9 +65,6 @@ box-sizing: content-box;
 
 /* *******************MEDIA QUERIES (SMALL DEVICE) */
 @media screen and (max-width: 600px) {
-    #experience{
-        width: 125%;
-    }
     .experience-container{
         gap: 1rem;
     }

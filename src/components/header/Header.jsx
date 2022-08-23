@@ -6,7 +6,7 @@ import ME from "../../assets/farewellBg.jpg"
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="intro-board">
         <h1>{"< Rahul Pant />"}</h1>
         </div>
